@@ -1,185 +1,340 @@
+https://mechanicltz.github.io/toolboxvault-legal/privacy.html
+https://mechanicltz.github.io/toolboxvault-legal/terms.html
+📄 privacy.html — full replacement
+Open privacy.html in GitHub → click the pencil ✏️ icon (top-right of the file view) → select all (Ctrl+A / Cmd+A) → delete → paste:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Service — Toolbox Vault</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Toolbox Vault</title>
 <style>
-  :root { color-scheme: light dark; }
-  * { box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 32px 20px 64px;
-    color: #1a1a1a;
-    background: #fff;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { color: #e8e8e8; background: #111; }
-    a { color: #4ea1ff; }
-  }
-  h1 { font-size: 28px; margin-bottom: 4px; }
-  h2 { font-size: 20px; margin-top: 32px; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; }
-  h3 { font-size: 17px; margin-top: 24px; }
-  .meta { color: #888; font-size: 14px; margin-bottom: 24px; }
-  .home-link { font-size: 14px; }
-  ul { padding-left: 22px; }
-  li { margin: 4px 0; }
-  hr { border: none; border-top: 1px solid #e5e5e5; margin: 32px 0; }
-  .uppercase { text-transform: uppercase; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       max-width:760px;margin:0 auto;padding:24px 20px 64px;color:#1a1a1a;line-height:1.55;
+       background:#fff;-webkit-text-size-adjust:100%}
+  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.5px}
+  h2{font-size:20px;margin-top:32px;border-bottom:1px solid #eee;padding-bottom:6px}
+  h3{font-size:16px;margin-top:24px;color:#333}
+  .meta{color:#666;font-size:14px;margin-bottom:24px}
+  .brand{color:#F5C518;font-weight:600}
+  ul{padding-left:20px}
+  li{margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+  th,td{border:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}
+  th{background:#f6f6f6}
+  a{color:#0a66c2;word-break:break-word}
+  hr{border:0;border-top:1px solid #eee;margin:32px 0}
+  footer{font-size:13px;color:#888;text-align:center;margin-top:40px}
+  code{background:#f4f4f4;padding:1px 6px;border-radius:4px;font-size:13px}
 </style>
 </head>
 <body>
 
-<p class="home-link"><a href="index.html">← Back to Legal</a></p>
+<h1>Privacy Policy</h1>
+<div class="meta"><span class="brand">Toolbox Vault</span><br>
+Effective Date: May 17, 2026 &nbsp;•&nbsp; Last Updated: May 17, 2026</div>
 
-<h1>Terms of Service</h1>
-<p class="meta"><strong>Effective date:</strong> December 8, 2025<br><strong>Last updated:</strong> December 8, 2025</p>
+<p>This Privacy Policy describes how the Toolbox Vault mobile application
+(&ldquo;<strong>Toolbox Vault</strong>,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) collects, uses, stores, and protects
+your information when you use our mobile application (the &ldquo;App&rdquo;) on iOS
+and Android devices. By installing or using the App, you agree to this Policy.</p>
 
-<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Toolbox Vault</strong> mobile application and related services (the "Service") operated by <strong>Ryan Overby</strong> ("Company", "we", "us", "our").</p>
+<h2>1. Information We Collect</h2>
 
-<p>By creating an account or using the Service you agree to these Terms. If you do not agree, do not use the Service.</p>
-
-<h2>1. The Service</h2>
-<p>Toolbox Vault is a mobile application that helps you track tools and related inventory items, including photos, receipts, dealers, locations, maintenance schedules, and warranty claims.</p>
-<p>We may add, change, or remove features at any time. We will provide reasonable notice of material changes.</p>
-
-<h2>2. Accounts</h2>
+<h3>1.1 Information You Provide</h3>
 <ul>
-  <li>You must be at least <strong>13 years old</strong> (16 in the EU) to use the Service.</li>
-  <li>You are responsible for keeping your account credentials secure.</li>
-  <li>You are responsible for all activity that occurs under your account.</li>
-  <li>You may not impersonate someone else, share your account, or use the Service for unlawful purposes.</li>
-  <li>You must provide an accurate email address. Notifications about your account, billing, and security will be sent there.</li>
+  <li><strong>Account Information:</strong> Email address and password (passwords are stored using one-way bcrypt hashing — we never see your plaintext password).</li>
+  <li><strong>Tool &amp; Inventory Data:</strong> Names, photos, model numbers, purchase dates, prices, locations, dealers, warranty info, receipts, and any content you choose to enter.</li>
+  <li><strong>Dealer &amp; Contact Info:</strong> Dealer business names, agent names, phone numbers, and email addresses you choose to add.</li>
+  <li><strong>Borrower Info:</strong> Names and phone numbers of people you check tools out to — typed manually or imported from your device's Contacts with your explicit permission.</li>
+  <li><strong>Photos &amp; Receipts:</strong> Images you upload from the camera or photo library.</li>
+  <li><strong>Subscription Info:</strong> Subscription tier, purchase date, renewal status (processed by Apple App Store or Google Play — <em>we never see your payment card details</em>).</li>
+  <li><strong>Feedback &amp; Support:</strong> Any feedback or bug reports you submit through the in-app form.</li>
 </ul>
 
-<h2>3. Free Plan and Subscription Plans</h2>
-<p>The Service offers a <strong>Free</strong> tier and paid <strong>Toolbox Vault Pro</strong> tiers.</p>
-
-<h3>3.1 Free tier limits</h3>
-<p>The Free tier allows you to track <strong>up to 15 tools/items</strong>. If you exceed the limit while on a paid plan and later downgrade, your over-limit items remain stored but become read-only and are excluded from reports and exports until you re-subscribe or delete enough items to fall under the limit.</p>
-
-<h3>3.2 Paid plans</h3>
+<h3>1.2 Information Collected Automatically</h3>
 <ul>
-  <li><strong>Monthly: $7.99 USD per month</strong>, auto-renewing every month.</li>
-  <li><strong>Yearly: $79.99 USD per year</strong>, auto-renewing every year.</li>
-  <li>Subscriptions provide unlimited items and access to all premium features.</li>
-  <li>Pricing in your local currency may vary based on App Store / Google Play conversion rates and applicable taxes.</li>
+  <li><strong>Diagnostics:</strong> Anonymous crash logs and performance data used to fix bugs. No personal content is included.</li>
+  <li><strong>Aggregate Usage:</strong> Counts of which features are used, not tied to your identity.</li>
 </ul>
 
-<h3>3.3 Auto-renewal &amp; billing</h3>
+<h3>1.3 Information We Do <em>Not</em> Collect</h3>
 <ul>
-  <li>All paid plans auto-renew unless you cancel <strong>at least 24 hours before the end of the current billing period</strong>.</li>
-  <li>Your account is charged within 24 hours <strong>prior</strong> to the end of the current period at the pricing then in effect.</li>
-  <li>You manage and cancel subscriptions in your device's store settings:
-    <ul>
-      <li><strong>iOS:</strong> Settings → [your name] → Subscriptions</li>
-      <li><strong>Android:</strong> Play Store → Profile → Payments &amp; subscriptions → Subscriptions</li>
-    </ul>
-  </li>
-  <li>You can also access these settings from inside the App via <strong>More → ACCOUNT → Subscription → Manage Subscription</strong>.</li>
+  <li>Location data of any kind.</li>
+  <li>Microphone audio.</li>
+  <li>Health, fitness, or medical data.</li>
+  <li>Browsing history outside the App.</li>
+  <li>Payment card or banking information (handled solely by Apple/Google).</li>
 </ul>
 
-<h3>3.4 Cancellations and refunds</h3>
+<h2>2. How We Use Your Information</h2>
+<p>We use the data we collect to:</p>
 <ul>
-  <li>You can cancel at any time. Cancellation takes effect at the end of the current paid period.</li>
-  <li><strong>All refund requests are handled by Apple or Google</strong>, depending on where you purchased. We cannot issue refunds directly. See:
-    <ul>
-      <li>Apple: <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a></li>
-      <li>Google: <a href="https://support.google.com/googleplay/answer/2479637">https://support.google.com/googleplay/answer/2479637</a></li>
-    </ul>
-  </li>
+  <li>Provide, maintain, and improve the App's core functionality.</li>
+  <li>Sync your inventory data securely across your devices.</li>
+  <li>Process and verify your subscription.</li>
+  <li>Respond to support requests and feedback.</li>
+  <li>Detect, prevent, and fix technical or security issues.</li>
+  <li>Comply with legal obligations.</li>
+</ul>
+<p><strong>We do not sell your personal information.</strong> We do not use your data for targeted advertising. We do not share your data with data brokers.</p>
+
+<h2>3. Data Linked to Your Identity (Apple App Privacy)</h2>
+<p>For Apple App Store privacy nutrition labels, the following data is collected and <em>linked to your identity</em> (your account):</p>
+<ul>
+  <li>Email address (account creation)</li>
+  <li>User content (your tool inventory, photos, receipts, dealers, borrowers, notes)</li>
+  <li>Identifiers (an internal user ID and a RevenueCat anonymous identifier)</li>
+  <li>Purchase history (subscription status only)</li>
+  <li>Diagnostics (crash logs)</li>
+</ul>
+<p>None of this is used for tracking, advertising, or shared with third-party marketers.</p>
+
+<h2>4. Information Sharing &amp; Third Parties</h2>
+<p>We share information only with these limited service providers, each contractually bound to confidentiality:</p>
+<table>
+<tr><th>Service</th><th>What they receive</th><th>Purpose</th></tr>
+<tr><td>Apple App Store / Google Play</td><td>Encrypted purchase receipts</td><td>Process subscriptions</td></tr>
+<tr><td><a href="https://www.revenuecat.com/privacy/">RevenueCat</a></td><td>Anonymous user ID + subscription status</td><td>Subscription management</td></tr>
+<tr><td>Cloud Hosting Provider</td><td>Encrypted user data at rest</td><td>Host the backend servers</td></tr>
+<tr><td>OpenAI (when you use AI Receipt Scan)</td><td>The receipt image you choose to scan</td><td>Extract text from the receipt; not retained for training</td></tr>
+</table>
+<p>We may also disclose information if required by a valid court order, subpoena, or law enforcement request.</p>
+
+<h2>5. Data Storage, Security &amp; Retention</h2>
+<ul>
+  <li>All data in transit is encrypted with industry-standard TLS/HTTPS.</li>
+  <li>Passwords are stored using one-way bcrypt hashing.</li>
+  <li>Photos and receipts are stored on secure servers with restricted access.</li>
+  <li>We retain your data only for as long as your account is active.</li>
+  <li>When you delete your account, all your data is permanently removed from our servers within <strong>30 days</strong> (some encrypted backups may persist up to 90 days before they cycle out).</li>
 </ul>
 
-<h3>3.5 Promotional codes</h3>
+<h2>6. Your Rights &amp; Choices</h2>
+<p>You can, at any time:</p>
 <ul>
-  <li>We may offer promotional codes that grant discounts or extended access. Codes are non-transferable, have no cash value, and may be revoked if obtained fraudulently.</li>
-  <li>Lifetime promotional access (when granted) is tied to your account and cannot be transferred to another account.</li>
+  <li><strong>Access</strong> your data — it is visible in-app at all times.</li>
+  <li><strong>Correct</strong> any data directly in the App.</li>
+  <li><strong>Export</strong> all your data via <em>More &rarr; Import / Export &rarr; Export CSV</em>.</li>
+  <li><strong>Delete</strong> your entire account (and all associated data) via <em>More &rarr; Account &rarr; Delete Account</em>. This is irreversible.</li>
+  <li><strong>Revoke</strong> any permission (Camera, Photos, Contacts, Face ID, Notifications) in your device's Settings.</li>
+  <li><strong>Cancel</strong> your subscription in your Apple ID or Google Play account settings.</li>
 </ul>
 
-<h3>3.6 Free-tier downgrade behavior</h3>
-<p>If you downgrade from Pro to Free and have more than 15 items, the App will:</p>
+<h3>6.1 EU / UK Residents (GDPR)</h3>
+<p>You have the right to access, rectify, port, and erase your personal data, restrict or object to its processing, and lodge a complaint with your local supervisory authority. Contact us using the email below to exercise these rights.</p>
+
+<h3>6.2 California Residents (CCPA / CPRA)</h3>
+<p>You have the right to know what categories of personal information we collect, to delete personal information, to correct inaccurate information, and to opt out of any &ldquo;sale&rdquo; or &ldquo;sharing&rdquo; of personal information. <em>We do not sell or share your personal information.</em></p>
+
+<h3>6.3 Other US States</h3>
+<p>If you reside in a US state with a comprehensive privacy law (e.g., VA, CO, CT, UT, TX), you have substantially similar rights and can exercise them by contacting us using the email below.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>Toolbox Vault is rated 4+ but is <strong>not intended for use by children under 13</strong>. We do not knowingly collect personal information from anyone under 13. If you believe a child has provided us with personal information, contact us at the email below and we will delete it.</p>
+
+<h2>8. Permissions Requested by the App</h2>
+<table>
+<tr><th>Permission</th><th>Used For</th><th>Optional?</th></tr>
+<tr><td>Camera</td><td>Taking photos of tools and receipts</td><td>Yes</td></tr>
+<tr><td>Photo Library</td><td>Selecting existing photos</td><td>Yes</td></tr>
+<tr><td>Contacts</td><td>Importing borrower names &amp; phone numbers at checkout</td><td>Yes</td></tr>
+<tr><td>Face ID / Touch ID</td><td>Optional biometric sign-in</td><td>Yes</td></tr>
+<tr><td>Notifications</td><td>Optional warranty &amp; maintenance reminders</td><td>Yes</td></tr>
+</table>
+<p>You may decline any of these and continue using the App.</p>
+
+<h2>9. Subscription Auto-Renewal</h2>
 <ul>
-  <li><strong>Retain</strong> all your data on our servers.</li>
-  <li><strong>Grey out</strong> items beyond the 15th and prevent you from opening their details.</li>
-  <li><strong>Limit</strong> reports and exports to the first 15 items only (oldest first).</li>
-  <li><strong>Allow</strong> you to export ALL your data (full export, not limited) before downgrading via <strong>More → ACCOUNT → Subscription → Cancel</strong>.</li>
+  <li>Payment is charged to your Apple ID or Google Play account at purchase confirmation.</li>
+  <li>Subscriptions auto-renew at the same price each period unless canceled at least 24 hours before the end of the current period.</li>
+  <li>Your account will be charged for renewal within 24 hours prior to the end of the current period.</li>
+  <li>You can manage and cancel subscriptions in your Apple ID or Google Play account settings.</li>
 </ul>
 
-<h2>4. Account Deletion</h2>
-<p>You may delete your account at any time via <strong>More → ACCOUNT → Delete Account</strong>. Account deletion:</p>
-<ul>
-  <li>Permanently removes all your personal data within 30 days.</li>
-  <li><strong>Cancels</strong> any active paid subscription tied to the account.</li>
-  <li>Is <strong>irreversible</strong> — you cannot recover deleted data.</li>
-</ul>
-<p>You will be shown a confirmation prompt explicitly noting the subscription cancellation before deletion proceeds.</p>
+<h2>10. International Transfers</h2>
+<p>Our servers may be located in the United States. By using the App you consent to your information being transferred to and processed in the United States, subject to safeguards equivalent to those in your home jurisdiction.</p>
 
-<h2>5. Acceptable Use</h2>
-<p>You agree not to:</p>
-<ul>
-  <li>Use the Service for any unlawful, fraudulent, or harmful purpose.</li>
-  <li>Reverse-engineer, decompile, or attempt to bypass security measures.</li>
-  <li>Interfere with the operation of the Service or other users' use of it.</li>
-  <li>Upload content that infringes someone else's rights or contains malicious code.</li>
-</ul>
-<p>We may suspend or terminate accounts that violate these Terms.</p>
+<h2>11. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The current version is always available at this URL and inside the App. Material changes will be highlighted via an in-app banner at next launch.</p>
 
-<h2>6. Your Content</h2>
-<p>You retain ownership of the data, photos, and other content you submit to the Service ("Your Content"). You grant us a limited license to store, process, and display Your Content solely to operate the Service for you.</p>
-<p>You are responsible for the accuracy and legality of Your Content. We do not review or moderate user content unless required to investigate abuse or comply with the law.</p>
-
-<h2>7. Intellectual Property</h2>
-<p>The Service, including its design, source code, branding, and content (other than Your Content), is owned by us and our licensors and is protected by copyright and other intellectual-property laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for personal use in accordance with these Terms.</p>
-
-<h2>8. Disclaimers</h2>
-<p class="uppercase">The Service is provided "as is" and "as available", without warranties of any kind, express or implied. We do not warrant that the Service will be uninterrupted, error-free, secure, or free from viruses.</p>
-<p>You are responsible for keeping your own backups of important data. The "Export" feature is provided for this purpose.</p>
-
-<h2>9. Limitation of Liability</h2>
-<p class="uppercase">To the maximum extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for loss of data, profits, or revenue, arising out of or related to the Service.</p>
-<p class="uppercase">Our total liability to you for any claim arising from these Terms or the Service is limited to the greater of (a) the amount you paid us in the 12 months preceding the claim, or (b) USD $100.</p>
-<p>Some jurisdictions do not allow these limitations, so portions may not apply to you.</p>
-
-<h2>10. Indemnification</h2>
-<p>You agree to indemnify and hold us harmless from any claims, damages, or expenses (including reasonable attorneys' fees) arising from your misuse of the Service or your violation of these Terms.</p>
-
-<h2>11. Changes to These Terms</h2>
-<p>We may update these Terms at any time. If we make material changes, we will notify you in the App and/or by email. Continued use of the Service after changes take effect means you accept the updated Terms.</p>
-
-<h2>12. Termination</h2>
-<p>We may suspend or terminate your access to the Service at any time for violation of these Terms or as required by law. Upon termination, your right to use the Service ends immediately. Sections that by their nature should survive (e.g., disclaimers, liability limits) will survive.</p>
-
-<h2>13. Governing Law and Disputes</h2>
-<p>These Terms are governed by the laws of the <strong>State of Minnesota, USA</strong>, without regard to conflict-of-laws rules. Any dispute will be resolved in the state or federal courts located in <strong>Morrison County, Minnesota</strong>, and you consent to the personal jurisdiction of those courts.</p>
-
-<h2>14. Apple-Specific Terms</h2>
-<p>If you downloaded the App from the Apple App Store:</p>
-<ul>
-  <li>These Terms are between you and the Company, <strong>not</strong> Apple. Apple is not responsible for the App or its content.</li>
-  <li>Apple has no obligation to provide maintenance or support for the App.</li>
-  <li>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App, if any. To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App.</li>
-  <li>Apple and its subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance, Apple has the right (and is deemed to have accepted the right) to enforce these Terms against you.</li>
-</ul>
-
-<h2>15. Google-Specific Terms</h2>
-<p>If you downloaded the App from Google Play, your use is also subject to the <strong>Google Play Terms of Service</strong>.</p>
-
-<h2>16. Contact</h2>
-<p>
-  <strong>Ryan Overby</strong><br>
-  <strong>21925 Haven RD</strong><br>
-  <strong>Little Falls, MN 56345</strong><br>
-  <strong>USA</strong><br>
-  <strong><a href="mailto:MechanicVault@gmail.com">MechanicVault@gmail.com</a></strong>
-</p>
-
-<p>By using the Service, you acknowledge that you have read and understood these Terms and agree to be bound by them.</p>
+<h2>12. Contact Us</h2>
+<p>For questions, concerns, or to exercise any of your privacy rights:</p>
+<p><strong>Email:</strong> <a href="mailto:MechanicVault@gmail.com">MechanicVault@gmail.com</a><br>
+We aim to respond within 5 business days.</p>
 
 <hr>
-<p class="home-link"><a href="index.html">← Back to Legal</a> · <a href="privacy.html">Terms of Service</a></p>
+<footer>
+This Policy applies only to the Toolbox Vault mobile application. We are not responsible
+for the privacy practices of third-party services accessed through the App
+(Apple, Google, RevenueCat, OpenAI).
+</footer>
+
+</body>
+</html>
+📄 terms.html — full replacement
+Same process: open terms.html → pencil ✏️ → select all → delete → paste:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms of Use — Toolbox Vault</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       max-width:760px;margin:0 auto;padding:24px 20px 64px;color:#1a1a1a;line-height:1.55;
+       background:#fff;-webkit-text-size-adjust:100%}
+  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.5px}
+  h2{font-size:20px;margin-top:32px;border-bottom:1px solid #eee;padding-bottom:6px}
+  h3{font-size:16px;margin-top:24px;color:#333}
+  .meta{color:#666;font-size:14px;margin-bottom:24px}
+  .brand{color:#F5C518;font-weight:600}
+  ul{padding-left:20px}
+  li{margin-bottom:6px}
+  a{color:#0a66c2;word-break:break-word}
+  hr{border:0;border-top:1px solid #eee;margin:32px 0}
+  footer{font-size:13px;color:#888;text-align:center;margin-top:40px}
+  .callout{background:#fff8e1;border-left:4px solid #F5C518;padding:12px 16px;margin:16px 0;border-radius:0 8px 8px 0;font-size:14px}
+</style>
+</head>
+<body>
+
+<h1>Terms of Use (EULA)</h1>
+<div class="meta"><span class="brand">Toolbox Vault</span><br>
+Effective Date: May 17, 2026 &nbsp;•&nbsp; Last Updated: May 17, 2026</div>
+
+<p>By downloading, installing, or using the Toolbox Vault mobile application (the &ldquo;<strong>App</strong>&rdquo;), you (&ldquo;you&rdquo; or &ldquo;User&rdquo;) agree to be bound by these Terms of Use (these &ldquo;<strong>Terms</strong>&rdquo;). If you do not agree, do not install or use the App.</p>
+
+<h2>1. License Grant</h2>
+<p>We grant you a personal, non-transferable, non-exclusive, revocable license to use the App on any iOS or Android device that you own or control, subject to these Terms and (for iOS users) Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement (EULA)</a>.</p>
+
+<h2>2. Description of Service</h2>
+<p>Toolbox Vault is a personal mobile inventory tracker that lets you:</p>
+<ul>
+  <li>Catalog your personal tools, equipment, and assets</li>
+  <li>Track checkouts and loans to others</li>
+  <li>Record dealer accounts, payments, and warranties</li>
+  <li>Generate PDF reports for insurance, sales, and personal records</li>
+  <li>Scan receipts using AI-assisted OCR</li>
+  <li>Store photos of items, receipts, and documents</li>
+</ul>
+
+<h2>3. Eligibility &amp; Account</h2>
+<ul>
+  <li>You must be at least 13 years old to create an account.</li>
+  <li>You are responsible for maintaining the confidentiality of your account credentials and for all activity under your account.</li>
+  <li>You must provide accurate and complete information.</li>
+  <li>One person per account; account sharing is not permitted.</li>
+</ul>
+
+<h2>4. Subscriptions, Auto-Renewal &amp; Billing</h2>
+
+<h3>4.1 Free Tier</h3>
+<p>The free tier of the App allows tracking up to <strong>15 tools</strong> along with related dealer, warranty, and checkout data.</p>
+
+<h3>4.2 Pro Subscriptions</h3>
+<p>Pro subscriptions unlock unlimited tools, advanced PDF reports, AI receipt scanning, and other premium features. Subscriptions are offered as:</p>
+<ul>
+  <li><strong>Pro Monthly</strong> &mdash; auto-renewing every 1 month.</li>
+  <li><strong>Pro Yearly</strong> &mdash; auto-renewing every 12 months at a discount.</li>
+</ul>
+<p>Exact pricing in your local currency is displayed in the App immediately before purchase confirmation.</p>
+
+<div class="callout">
+<strong>Auto-Renewal Disclosure (Apple &amp; Google requirement)</strong><br>
+Payment will be charged to your Apple ID or Google Play account at purchase confirmation.
+Subscriptions automatically renew at the same price for the same duration unless auto-renew is turned off at least <strong>24 hours before the end of the current period</strong>.
+Your account will be charged for renewal within 24 hours prior to the end of the current period.
+You can manage your subscription and turn off auto-renewal at any time by going to your Apple ID or Google Play account settings after purchase.
+No cancellation of the current subscription is allowed during the active subscription period.
+</div>
+
+<h3>4.3 Payment</h3>
+<p>All subscription payments are processed and billed by <strong>Apple App Store</strong> (iOS) or <strong>Google Play Store</strong> (Android), not by us directly. We do not see your payment card details.</p>
+
+<h3>4.4 Refunds</h3>
+<p>Refunds are governed exclusively by Apple's or Google's respective refund policies. We are unable to issue refunds for App Store or Google Play purchases. To request a refund, contact Apple or Google support.</p>
+
+<h3>4.5 Free Trials</h3>
+<p>If a free trial is offered, any unused portion is forfeited when you start a paid subscription.</p>
+
+<h3>4.6 Price Changes</h3>
+<p>If we change subscription prices, we will notify you in advance. You will have the opportunity to cancel before the new price takes effect on your next renewal.</p>
+
+<h2>5. Acceptable Use</h2>
+<p>You agree NOT to:</p>
+<ul>
+  <li>Use the App for any illegal purpose or in violation of any laws.</li>
+  <li>Reverse-engineer, decompile, or extract the source code.</li>
+  <li>Store or transmit malicious code, spam, or harmful content.</li>
+  <li>Impersonate another person or misrepresent your identity.</li>
+  <li>Attempt unauthorized access to other users' accounts or our servers.</li>
+  <li>Harass, abuse, or harm another person.</li>
+  <li>Upload content that infringes another party's intellectual property rights.</li>
+  <li>Use automated tools, scrapers, or bots to interact with the App.</li>
+</ul>
+<p>Violations may result in immediate account suspension or termination.</p>
+
+<h2>6. User Content</h2>
+<ul>
+  <li>You retain ownership of all content you create in the App.</li>
+  <li>You grant us a limited license to store and process your content solely to provide the App's functionality.</li>
+  <li>You are solely responsible for the accuracy and legality of the content you create.</li>
+</ul>
+
+<h2>7. Intellectual Property</h2>
+<p>The App, including its design, code, branding, and original content, is the property of Toolbox Vault and protected by copyright, trademark, and other intellectual-property laws. You may not copy, modify, distribute, or sell any part of the App without our written permission.</p>
+
+<h2>8. AI Features Disclaimer</h2>
+<p>The App uses AI-assisted features (such as receipt scanning) to help speed up data entry. <strong>AI suggestions are not guaranteed to be accurate.</strong> You are solely responsible for reviewing and correcting any AI-generated data before saving it.</p>
+
+<h2>9. Data Backup &amp; Export</h2>
+<p>We make reasonable efforts to back up your data, but we are not responsible for any loss of data. You are encouraged to periodically export your inventory via the built-in <em>Export CSV</em> feature.</p>
+
+<h2>10. Account Deletion</h2>
+<p>You may delete your account and all associated data at any time via <em>More &rarr; Account &rarr; Delete Account</em>. Deletion is permanent and irreversible. We reserve the right to suspend or terminate accounts that violate these Terms, with or without notice.</p>
+
+<h2>11. Service Availability</h2>
+<p>We strive to keep the App available 24/7, but we do not guarantee uninterrupted service. The App may occasionally be unavailable for maintenance, updates, or due to circumstances beyond our control. We are not liable for losses caused by App unavailability.</p>
+
+<h2>12. Disclaimers</h2>
+<p>THE APP IS PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE OR UNINTERRUPTED.</p>
+
+<h2>13. Limitation of Liability</h2>
+<p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUES, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF THE APP. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THESE TERMS OR YOUR USE OF THE APP WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP IN THE 12 MONTHS PRECEDING THE CLAIM, OR USD&nbsp;$50, WHICHEVER IS GREATER.</p>
+
+<h2>14. Indemnification</h2>
+<p>You agree to indemnify and hold us harmless from any claims, damages, or expenses arising from (a) your use of the App, (b) your violation of these Terms, or (c) your violation of any rights of another party.</p>
+
+<h2>15. Changes to These Terms</h2>
+<p>We may update these Terms at any time. The current version is always available within the App and at this URL. Continued use of the App after changes constitutes acceptance of the new Terms. Material changes will be notified via an in-app banner at next launch.</p>
+
+<h2>16. Governing Law &amp; Dispute Resolution</h2>
+<p>These Terms are governed by the laws of the State in which Toolbox Vault's principal place of business is located in the United States, without regard to conflict-of-law principles. Any dispute arising out of or relating to these Terms or your use of the App shall be resolved exclusively in the state or federal courts located in that jurisdiction, and you consent to personal jurisdiction in those courts.</p>
+
+<h2>17. Apple-Specific Terms (iOS Users)</h2>
+<p>In addition to these Terms, Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a> applies to your use of the App on iOS. In the event of any conflict between these Terms and the Apple EULA with respect to iOS-specific matters, the Apple EULA controls. You acknowledge:</p>
+<ul>
+  <li>These Terms are between you and Toolbox Vault, not with Apple. Apple is not responsible for the App or its content.</li>
+  <li>Your use of the App is subject to the App Store Terms of Service.</li>
+  <li>If the App fails to conform to any applicable warranty, you may notify Apple, who may refund the purchase price; Apple has no other warranty obligation regarding the App.</li>
+  <li>Apple is not responsible for addressing any claims by you or any third party relating to the App, including product-liability or consumer-protection claims.</li>
+  <li>Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you.</li>
+</ul>
+
+<h2>18. Contact Us</h2>
+<p><strong>Email:</strong> <a href="mailto:MechanicVault@gmail.com">MechanicVault@gmail.com</a><br>
+We aim to respond to support and legal inquiries within 5 business days.</p>
+
+<hr>
+<footer>
+By using Toolbox Vault, you acknowledge that you have read, understood,
+and agree to be bound by these Terms of Use.
+</footer>
 
 </body>
 </html>
